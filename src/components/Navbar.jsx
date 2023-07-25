@@ -42,10 +42,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="/src/assets/llogo.png" alt="logo" style={{ borderRadius: '50%', width: '150px', height: '150px' }} />
+    
 
+          <img src="/src/assets/llogo.png" alt='logo' className='w-9 h-9 object-contain' style={{ borderRadius: '50%' }}/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Mihaela &nbsp;
+            <span className='sm:block hidden'> | Full Stack Developer</span>
           </p>
         </Link>
 
