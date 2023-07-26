@@ -3,19 +3,25 @@ import {
   backend,
   web,
   javascript,
-  typescript,
   html,
+  api,
+  django,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
   starbucks,
-  carrent,
+  weshare,
   jobit,
   tripguide,
   threejs,
+  rexremovals,
+  brainwizzz,
+  eatsmart,
+  vellmag,
+  code,
+  rex
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Javascript Developer",
+    title: "Javascript Frontend Developer",
     icon: javascript,
   },
 ];
@@ -64,6 +70,18 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "API",
+    icon: api,
   },
   {
     name: "React JS",
@@ -91,7 +109,7 @@ const experiences = [
   {
     title: "Full Stack Developer Volunteer",
     company_name: "Vell Magazine",
-    icon: starbucks,
+    icon: vellmag,
     iconBg: "#383E56",
     date: "Apr 2023 - Present",
     points: [
@@ -99,6 +117,28 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full Stack Developer Student",
+    company_name: "Code Institute",
+    icon: code,
+    iconBg: "#383E56",
+    date: "Feb 2023 - April 2023",
+    points: [
+      "As a Full-Stack Developer graduate from Code Institute, I have a comprehensive skill set in front-end development with HTML, CSS, JavaScript, Python, and React,",
+      "as well as back-end development using Django, Flask, Django-REST, API, PostgreSql.. During my time at Code Institute, I worked on several projects.",
+      ".With experience in testing using React and Jest, I am confident in my ability to contribute to any team.",
+    ],
+  },
+  {
+    title: "E-Commerce co-founder",
+    company_name: "Rex Gadgets",
+    icon: rex,
+    iconBg: "#383E56",
+    date: "Feb 2023 - April 2023",
+    points: [
+      "Establishing from scratch an E-Commerce site with a partner , reaching 700+ orders per month, and generating traffic for over 1000 of clients.Managing 10000 pieces stock of Mobile accessories ,Researching mobile accessories products that sell best within the market and researched multiple Vendor Prices",
     ],
   },
 ];
@@ -121,41 +161,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: weshare,
+    source_code_link: "https://github.com/mihayounas/weshare-milestone5-code-institute",
+    demo: "https://weshare-media.herokuapp.com/"
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Brain Wizzz",
+    description:"Created Brain Wizz, an immersive memory game leveraging advanced JavaScript logic and captivating visual design. Developed an interactive user interface that seamlessly handles user events and provides an engaging gaming experience.",
     tags: [
       {
-        name: "react",
+        name: "vanilla-javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: brainwizzz,
+    source_code_link: "https://github.com/mihayounas/javascript-project2-game",
+    demo:"https://mihayounas.github.io/javascript-project2-game/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "EatSmart",
+    description:"Work in progress - A app to count calories and eat healthy.Enhance the interface with intuitive user interactions and responsive design, optimizing the overall user experience for administrators managing articles on the platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eatsmart,
+    source_code_link: "https://github.com/mihayounas/calories-counter-django-app",
+  },
+  {
+    name: "SecondScoop",
+    description:"Developed SecondScoop, an imaginative dessert shop website, with event organization, reservation booking, and interactive blogging capabilities. Leveraged Python-Django, JavaScript, HTML, and CSS for a visually appealing platform.",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
         color: "green-text-gradient",
       },
       {
@@ -164,8 +216,48 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mihayounas/second-scoop-milestone-4",
+    demo:"https://second-scoop.herokuapp.com/",
   },
+  {
+    name: "3D T-shirt design",
+    description:"Vite + React and ThreeJs were used to build a 3d Model where you can customize your own shirt, upload pictures and change color .",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "taildwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/mihayounas/threejs-3d-create-your-shirt",
+    demo:"https://adorable-custard-af41e2.netlify.app/",
+  },
+  {
+    name: "Rex Removals",
+    description:"Developed Rex Removals, a captivating website connecting users with a premier furniture moving company. Leveraged HTML and CSS for an aesthetically pleasing design and showcased expertise in responsive web design for optimal user experience.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rexremovals,
+    source_code_link: "https://github.com/mihayounas/rexremovals",
+    demo:"https://mihayounas.github.io/rexremovals/index.html",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
