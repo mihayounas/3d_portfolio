@@ -109,16 +109,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "WeShare",
+    description:"Developed a cutting-edge social media app using ReactJS, CSS, and React-Bootstrap for engaging posts and meaningful connections. Expertise in validation, API requests, and seamless user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react-bootstrap",
         color: "pink-text-gradient",
       },
     ],
