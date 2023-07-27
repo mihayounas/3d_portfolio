@@ -44,7 +44,7 @@ const Navbar = () => {
         >
     
 
-          <img src="src/assets/loogo.png" alt='logo' className='w-9 h-9 object-contain' style={{ borderRadius: '50%' }}/>
+          <img src="/src/assets/loogo.png" alt='logo' className='w-9 h-9 object-contain' style={{ borderRadius: '50%' }}/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Mihaela &nbsp;
             <span className='sm:block hidden'> | Full Stack Developer</span>
